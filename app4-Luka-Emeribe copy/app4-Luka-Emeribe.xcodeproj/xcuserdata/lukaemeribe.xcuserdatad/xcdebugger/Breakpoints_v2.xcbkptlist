@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "020D0A92-8259-49B7-A4A8-1B3A3FB96FD9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "app4-Luka-Emeribe/AddContactViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AddContactViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0 - 48123ebafb727551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "app4_Luka_Emeribe.AddContactViewController.FirstName.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "app4-Luka-Emeribe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaemeribe/Downloads/CIS195/apps/app4-Luka-Emeribe/app4-Luka-Emeribe/AddContactViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0 - 1147c264c5cc495d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "app4_Luka_Emeribe.AddContactViewController.FirstName.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "app4-Luka-Emeribe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaemeribe/Downloads/CIS195/apps/app4-Luka-Emeribe/app4-Luka-Emeribe/AddContactViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0 - 27dc6e99d3be3085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "app4_Luka_Emeribe.AddContactViewController.FirstName.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "app4-Luka-Emeribe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaemeribe/Downloads/CIS195/apps/app4-Luka-Emeribe/app4-Luka-Emeribe/AddContactViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0 - 6d3ee18018c57c0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "app4_Luka_Emeribe.AddContactViewController.FirstName.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "app4-Luka-Emeribe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaemeribe/Downloads/CIS195/apps/app4-Luka-Emeribe/app4-Luka-Emeribe/AddContactViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0 - 7e9a1b3ed842cf12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "app4_Luka_Emeribe.AddContactViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; app4_Luka_Emeribe.AddContactViewController"
+                  moduleName = "app4-Luka-Emeribe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaemeribe/Downloads/CIS195/apps/app4-Luka-Emeribe/app4-Luka-Emeribe/AddContactViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "6045FBDB-3F44-44F3-B187-33BFF8A153A0 - c71d0c5d590ebad4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "app4_Luka_Emeribe.AddContactViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;app4_Luka_Emeribe.AddContactViewController&gt;"
+                  moduleName = "app4-Luka-Emeribe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaemeribe/Downloads/CIS195/apps/app4-Luka-Emeribe/app4-Luka-Emeribe/AddContactViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

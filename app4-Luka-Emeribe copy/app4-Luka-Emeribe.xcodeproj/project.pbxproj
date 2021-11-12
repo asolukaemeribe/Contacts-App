@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4885165A271B6119006840F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48851659271B6119006840F7 /* AppDelegate.swift */; };
+		4885165C271B6119006840F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885165B271B6119006840F7 /* SceneDelegate.swift */; };
+		48851661271B6119006840F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885165F271B6119006840F7 /* Main.storyboard */; };
+		48851663271B611F006840F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48851662271B611F006840F7 /* Assets.xcassets */; };
+		48851666271B611F006840F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48851664271B611F006840F7 /* LaunchScreen.storyboard */; };
+		48851671271B611F006840F7 /* app4_Luka_EmeribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48851670271B611F006840F7 /* app4_Luka_EmeribeTests.swift */; };
+		4885167B271B611F006840F7 /* app4_Luka_EmeribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885167A271B611F006840F7 /* app4_Luka_EmeribeUITests.swift */; };
+		4885167D271B611F006840F7 /* app4_Luka_EmeribeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885167C271B611F006840F7 /* app4_Luka_EmeribeUITestsLaunchTests.swift */; };
+		4885168A271B78EA006840F7 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48851689271B78EA006840F7 /* ContactsTableViewController.swift */; };
+		4885168E271B792F006840F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885168D271B792F006840F7 /* DetailViewController.swift */; };
+		48851690271B7ACC006840F7 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885168F271B7ACC006840F7 /* AddContactViewController.swift */; };
+		48851692271F958B006840F7 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48851691271F958B006840F7 /* Contacts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4885166D271B611F006840F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4885164E271B6119006840F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48851655271B6119006840F7;
+			remoteInfo = "app4-Luka-Emeribe";
+		};
+		48851677271B611F006840F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4885164E271B6119006840F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48851655271B6119006840F7;
+			remoteInfo = "app4-Luka-Emeribe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48851656271B6119006840F7 /* app4-Luka-Emeribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app4-Luka-Emeribe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48851659271B6119006840F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4885165B271B6119006840F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48851660271B6119006840F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48851662271B611F006840F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48851665271B611F006840F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48851667271B611F006840F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4885166C271B611F006840F7 /* app4-Luka-EmeribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app4-Luka-EmeribeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48851670271B611F006840F7 /* app4_Luka_EmeribeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app4_Luka_EmeribeTests.swift; sourceTree = "<group>"; };
+		48851676271B611F006840F7 /* app4-Luka-EmeribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app4-Luka-EmeribeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4885167A271B611F006840F7 /* app4_Luka_EmeribeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app4_Luka_EmeribeUITests.swift; sourceTree = "<group>"; };
+		4885167C271B611F006840F7 /* app4_Luka_EmeribeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app4_Luka_EmeribeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48851689271B78EA006840F7 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		4885168D271B792F006840F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4885168F271B7ACC006840F7 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		48851691271F958B006840F7 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48851653271B6119006840F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48851669271B611F006840F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48851673271B611F006840F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4885164D271B6119006840F7 = {
+			isa = PBXGroup;
+			children = (
+				48851658271B6119006840F7 /* app4-Luka-Emeribe */,
+				4885166F271B611F006840F7 /* app4-Luka-EmeribeTests */,
+				48851679271B611F006840F7 /* app4-Luka-EmeribeUITests */,
+				48851657271B6119006840F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48851657271B6119006840F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48851656271B6119006840F7 /* app4-Luka-Emeribe.app */,
+				4885166C271B611F006840F7 /* app4-Luka-EmeribeTests.xctest */,
+				48851676271B611F006840F7 /* app4-Luka-EmeribeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48851658271B6119006840F7 /* app4-Luka-Emeribe */ = {
+			isa = PBXGroup;
+			children = (
+				48851659271B6119006840F7 /* AppDelegate.swift */,
+				4885168F271B7ACC006840F7 /* AddContactViewController.swift */,
+				4885165B271B6119006840F7 /* SceneDelegate.swift */,
+				4885165F271B6119006840F7 /* Main.storyboard */,
+				48851662271B611F006840F7 /* Assets.xcassets */,
+				48851664271B611F006840F7 /* LaunchScreen.storyboard */,
+				48851667271B611F006840F7 /* Info.plist */,
+				48851689271B78EA006840F7 /* ContactsTableViewController.swift */,
+				4885168D271B792F006840F7 /* DetailViewController.swift */,
+				48851691271F958B006840F7 /* Contacts.swift */,
+			);
+			path = "app4-Luka-Emeribe";
+			sourceTree = "<group>";
+		};
+		4885166F271B611F006840F7 /* app4-Luka-EmeribeTests */ = {
+			isa = PBXGroup;
+			children = (
+				48851670271B611F006840F7 /* app4_Luka_EmeribeTests.swift */,
+			);
+			path = "app4-Luka-EmeribeTests";
+			sourceTree = "<group>";
+		};
+		48851679271B611F006840F7 /* app4-Luka-EmeribeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4885167A271B611F006840F7 /* app4_Luka_EmeribeUITests.swift */,
+				4885167C271B611F006840F7 /* app4_Luka_EmeribeUITestsLaunchTests.swift */,
+			);
+			path = "app4-Luka-EmeribeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48851655271B6119006840F7 /* app4-Luka-Emeribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48851680271B611F006840F7 /* Build configuration list for PBXNativeTarget "app4-Luka-Emeribe" */;
+			buildPhases = (
+				48851652271B6119006840F7 /* Sources */,
+				48851653271B6119006840F7 /* Frameworks */,
+				48851654271B6119006840F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app4-Luka-Emeribe";
+			productName = "app4-Luka-Emeribe";
+			productReference = 48851656271B6119006840F7 /* app4-Luka-Emeribe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4885166B271B611F006840F7 /* app4-Luka-EmeribeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48851683271B611F006840F7 /* Build configuration list for PBXNativeTarget "app4-Luka-EmeribeTests" */;
+			buildPhases = (
+				48851668271B611F006840F7 /* Sources */,
+				48851669271B611F006840F7 /* Frameworks */,
+				4885166A271B611F006840F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4885166E271B611F006840F7 /* PBXTargetDependency */,
+			);
+			name = "app4-Luka-EmeribeTests";
+			productName = "app4-Luka-EmeribeTests";
+			productReference = 4885166C271B611F006840F7 /* app4-Luka-EmeribeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48851675271B611F006840F7 /* app4-Luka-EmeribeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48851686271B611F006840F7 /* Build configuration list for PBXNativeTarget "app4-Luka-EmeribeUITests" */;
+			buildPhases = (
+				48851672271B611F006840F7 /* Sources */,
+				48851673271B611F006840F7 /* Frameworks */,
+				48851674271B611F006840F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48851678271B611F006840F7 /* PBXTargetDependency */,
+			);
+			name = "app4-Luka-EmeribeUITests";
+			productName = "app4-Luka-EmeribeUITests";
+			productReference = 48851676271B611F006840F7 /* app4-Luka-EmeribeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4885164E271B6119006840F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					48851655271B6119006840F7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4885166B271B611F006840F7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 48851655271B6119006840F7;
+					};
+					48851675271B611F006840F7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 48851655271B6119006840F7;
+					};
+				};
+			};
+			buildConfigurationList = 48851651271B6119006840F7 /* Build configuration list for PBXProject "app4-Luka-Emeribe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4885164D271B6119006840F7;
+			productRefGroup = 48851657271B6119006840F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48851655271B6119006840F7 /* app4-Luka-Emeribe */,
+				4885166B271B611F006840F7 /* app4-Luka-EmeribeTests */,
+				48851675271B611F006840F7 /* app4-Luka-EmeribeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48851654271B6119006840F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48851666271B611F006840F7 /* LaunchScreen.storyboard in Resources */,
+				48851663271B611F006840F7 /* Assets.xcassets in Resources */,
+				48851661271B6119006840F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4885166A271B611F006840F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48851674271B611F006840F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48851652271B6119006840F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885165A271B6119006840F7 /* AppDelegate.swift in Sources */,
+				4885168E271B792F006840F7 /* DetailViewController.swift in Sources */,
+				48851692271F958B006840F7 /* Contacts.swift in Sources */,
+				48851690271B7ACC006840F7 /* AddContactViewController.swift in Sources */,
+				4885168A271B78EA006840F7 /* ContactsTableViewController.swift in Sources */,
+				4885165C271B6119006840F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48851668271B611F006840F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48851671271B611F006840F7 /* app4_Luka_EmeribeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48851672271B611F006840F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885167D271B611F006840F7 /* app4_Luka_EmeribeUITestsLaunchTests.swift in Sources */,
+				4885167B271B611F006840F7 /* app4_Luka_EmeribeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4885166E271B611F006840F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48851655271B6119006840F7 /* app4-Luka-Emeribe */;
+			targetProxy = 4885166D271B611F006840F7 /* PBXContainerItemProxy */;
+		};
+		48851678271B611F006840F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48851655271B6119006840F7 /* app4-Luka-Emeribe */;
+			targetProxy = 48851677271B611F006840F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4885165F271B6119006840F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48851660271B6119006840F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48851664271B611F006840F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48851665271B611F006840F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4885167E271B611F006840F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4885167F271B611F006840F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48851681271B611F006840F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S32622S26W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "app4-Luka-Emeribe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka-sPlaybox.app4-Luka-Emeribe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48851682271B611F006840F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S32622S26W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "app4-Luka-Emeribe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka-sPlaybox.app4-Luka-Emeribe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48851684271B611F006840F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S32622S26W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka-sPlaybox.app4-Luka-EmeribeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app4-Luka-Emeribe.app/app4-Luka-Emeribe";
+			};
+			name = Debug;
+		};
+		48851685271B611F006840F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S32622S26W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka-sPlaybox.app4-Luka-EmeribeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app4-Luka-Emeribe.app/app4-Luka-Emeribe";
+			};
+			name = Release;
+		};
+		48851687271B611F006840F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S32622S26W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka-sPlaybox.app4-Luka-EmeribeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "app4-Luka-Emeribe";
+			};
+			name = Debug;
+		};
+		48851688271B611F006840F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S32622S26W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka-sPlaybox.app4-Luka-EmeribeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "app4-Luka-Emeribe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48851651271B6119006840F7 /* Build configuration list for PBXProject "app4-Luka-Emeribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4885167E271B611F006840F7 /* Debug */,
+				4885167F271B611F006840F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48851680271B611F006840F7 /* Build configuration list for PBXNativeTarget "app4-Luka-Emeribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48851681271B611F006840F7 /* Debug */,
+				48851682271B611F006840F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48851683271B611F006840F7 /* Build configuration list for PBXNativeTarget "app4-Luka-EmeribeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48851684271B611F006840F7 /* Debug */,
+				48851685271B611F006840F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48851686271B611F006840F7 /* Build configuration list for PBXNativeTarget "app4-Luka-EmeribeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48851687271B611F006840F7 /* Debug */,
+				48851688271B611F006840F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4885164E271B6119006840F7 /* Project object */;
+}
